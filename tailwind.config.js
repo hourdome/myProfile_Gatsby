@@ -5,7 +5,13 @@ module.exports = {
     `./src/components/**/*.{js,jsx,ts,tsx}`,
   ],
   theme: {
-    extend: {},
+      backgroundColor: {
+        "black-valo": "#3C3A4C",
+        "red-valo": "#f94555",
+    },
+    textColor: {
+      "red-valo": "#f94555",
+    },
   },
   plugins: [],
-}
+};
