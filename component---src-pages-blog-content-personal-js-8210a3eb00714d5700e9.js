@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_gatsby_site=self.webpackChunkmy_gatsby_site||[]).push([[947],{8925:function(e,t,s){s.r(t);var n=s(7294);t.default=function(){return n.createElement("div",null,"this is Personal")}}}]);
+//# sourceMappingURL=component---src-pages-blog-content-personal-js-8210a3eb00714d5700e9.js.map
