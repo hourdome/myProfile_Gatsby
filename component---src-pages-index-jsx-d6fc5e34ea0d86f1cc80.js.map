@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-index-jsx-d6fc5e34ea0d86f1cc80.js","mappings":"+KAEe,SAASA,IACpB,OAAO,2BAAK,wCAChB,C","sources":["webpack://my-gatsby-site/./src/pages/index.jsx"],"sourcesContent":["import React from \"react\"\r\n\r\nexport default function Home() {\r\n    return <div>Hello World, This site is my Profile.</div>\r\n}"],"names":["Home"],"sourceRoot":""}
