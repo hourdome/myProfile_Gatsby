@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_gatsby_site=self.webpackChunkmy_gatsby_site||[]).push([[678],{6558:function(e,t,s){s.r(t);var a=s(7294);t.default=function(){return a.createElement("div",{className:"bg-black-valo flex justify-center item-center h-screen"},a.createElement("div",{className:"text-red-valo"},"Hello World, This site is my Profile."))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-d2a96c6e90d33c961363.js.map
