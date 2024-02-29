@@ -13,6 +13,14 @@ module.exports = {
     textColor: {
       "red-valo": "#f94555",
     },
+    extend: {
+      width: {
+        '128': '32rem',
+      }
+    },
+    fontFamily: {
+      'Noto': ['Noto Sans Thai', 'sans-serif'],
+    },
   },
   plugins: [],
 };

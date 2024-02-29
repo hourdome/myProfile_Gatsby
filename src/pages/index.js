@@ -1,26 +1,25 @@
 import React from "react"
-import { CardInfo } from '../components'
+import { CardContact, CardExp, CardPersonal } from '../components'
+import workingPNG from '../images/profile/working.png'
+import contactPNG from '../images/profile/contact.png'
 
 
 function Home() {
     return (
         
     <div className="bg-black-valo flex justify-center item-center w-full min-h-screen">
-        <div className="grid grid-flow-row justify-stretch md:grid-cols-4 grid-rows-4">
-            <CardInfo 
-                heading={'Personal'}
-                content={'ประวัติส่วนตัว'}
-                endpoint={'/BlogContent/personal'}
+        <div className="grid justify-stretch grid-cols-1">
+            <CardPersonal 
+                heading={'PERSONAL'}
+                image={'profile/profile.jpg'}
             />
-            <CardInfo 
-                heading={'Working'}
-                content={'การทำงาน'}
-                endpoint={'/BlogContent/working'}
+            <CardExp
+                heading={'EXPERIENCE'}
+                image={workingPNG}
             />
-            <CardInfo 
-                heading={'Contact'}
-                content={'ช่องทางการติดต่อ'}
-                endpoint={'/BlogContent/contact'}
+            <CardContact
+                heading={'CONTACT'}
+                image={contactPNG}               
             />
         </div>
     </div>

@@ -1,4 +1,6 @@
-import CardInfo from "./cardinfo";
+import CardPersonal from "./cardPersonal";
+import CardExp from "./cardExp";
+import CardContact from "./cardContact";
 
-export { CardInfo };
-export default { CardInfo };
+export { CardPersonal, CardExp, CardContact };
+export default { CardPersonal, CardExp, CardContact };
